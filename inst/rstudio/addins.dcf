@@ -1,0 +1,4 @@
+Name: Generate Report
+Description: Generates The Report
+Binding: GenerateReport
+Interactive: True
