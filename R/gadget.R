@@ -418,19 +418,19 @@ GenerateReport <- function(test_input) {
       df[2,2] <- "Total Recordable Injury Rate"
       df[2,3] <- "YTD"
       df[2,4] <- "< 1.15"
-      df[2,7] <- "▲"
+      df[2,7] <- ""
 
       df[3,1] <- "H2"
       df[3,2] <- "Days Away / Restricted Time Rate"
       df[3,3] <- "YTD"
       df[3,4] <- "< 1.15"
-      df[3,7] <- "▼"
+      df[3,7] <- ""
 
       df[4,1] <- "H3"
       df[4,2] <- "Number of Slam Dunks"
       df[4,3] <- "YTD"
       df[4,4] <- "> 40"
-      df[4,7] <- "►"
+      df[4,7] <- ""
 
       df <- df %>%
         add_row(`Performance Indicators` = "Financial Success", .before = 5)
@@ -438,91 +438,91 @@ GenerateReport <- function(test_input) {
       df[6,2] <- "EBITDA ($Millions)"
       df[6,3] <- "Month"
       df[6,4] <- "$1.46"
-      df[6,7] <- "▲"
+      df[6,7] <- ""
 
       df[7,1] <- "F1b"
       df[7,2] <- "EBITDA ($Millions)"
       df[7,3] <- "YTD"
       df[7,4] <- "$2.97"
-      df[7,7] <- "▲"
+      df[7,7] <- ""
 
       df[8,1] <- "F1c"
       df[8,2] <- "EBITDA % of Sales"
       df[8,3] <- "YTD"
       df[8,4] <- "7.6%"
-      df[8,7] <- "▲"
+      df[8,7] <- ""
 
       df[9,1] <- "F2"
       df[9,2] <- "EBITE ($Millions)"
       df[9,3] <- "YTD"
       df[9,4] <- "0"
-      df[9,7] <- "▲"
+      df[9,7] <- ""
 
       df[10,1] <- "F3a"
       df[10,2] <- "Bookings ($Millions)"
       df[10,3] <- "YTD"
       df[10,4] <- "$61.9"
-      df[10,7] <- "▲"
+      df[10,7] <- ""
 
       df[11,1] <- "F4"
       df[11,2] <- "Backlog ($Millions)"
       df[11,3] <- "Period End"
       df[11,4] <- "0"
-      df[11,7] <- "▲"
+      df[11,7] <- ""
 
       df[12,1] <- "F5"
       df[12,2] <- "Booked GM %"
       df[12,3] <- "YTD"
       df[12,4] <- "0"
-      df[12,7] <- "▲"
+      df[12,7] <- ""
 
       df[13,1] <- "F6a"
       df[13,2] <- "Revenue ($Millions)"
       df[13,3] <- "Month"
       df[13,4] <- "$19.7"
-      df[13,7] <- "▲"
+      df[13,7] <- ""
 
       df[14,1] <- "F6b"
       df[14,2] <- "Revenue ($Millions)"
       df[14,3] <- "YTD"
       df[14,4] <- "$39"
-      df[14,7] <- "▲"
+      df[14,7] <- ""
 
       df[15,1] <- "F7"
       df[15,2] <- "Gross Margin %"
       df[15,3] <- "YTD"
       df[15,4] <- "31%"
-      df[15,7] <- "▲"
+      df[15,7] <- ""
 
       df[16,1] <- "F8a"
       df[16,2] <- "Cap Ex ($Millions)"
       df[16,3] <- "Month"
       df[16,4] <- "0"
-      df[16,7] <- "▲"
+      df[16,7] <- ""
 
       df[17,1] <- "F8b"
       df[17,2] <- "Cap Ex ($Millions)"
       df[17,3] <- "YTD"
       df[17,4] <- "0"
-      df[17,7] <- "▲"
+      df[17,7] <- ""
 
       df[18,1] <- "F9"
       df[18,2] <- "Net Bank Debt ($Millions)"
       df[18,3] <- "Period End"
       df[18,4] <- "0"
-      df[18,7] <- "▲"
+      df[18,7] <- ""
 
       df[19,1] <- "F10"
       df[19,2] <- "RONA (NI/(FA+NWC)"
       df[19,3] <- "Period End"
       df[19,4] <- "0"
-      df[19,7] <- "▲"
+      df[19,7] <- ""
 
       df[20,1] <- "F11"
       df[20,2] <- "Rental Unit Utilization"
       df[20,3] <- "Period End"
       df[20,4] <- "0"
-      df[20,7] <- "▲"
+      df[20,7] <- ""
 
       df <- df %>%
         add_row(`Performance Indicators` = "People Services", .before = 21)
@@ -530,25 +530,25 @@ GenerateReport <- function(test_input) {
       df[22,2] <- "Headcount USA"
       df[22,3] <- "Period End"
       df[22,4] <- "575"
-      df[22,7] <- "▲"
+      df[22,7] <- ""
 
       df[23,1] <- "P1b"
       df[23,2] <- "Headcount Total"
       df[23,3] <- "Period End"
       df[23,4] <- "656"
-      df[23,7] <- "▲"
+      df[23,7] <- ""
 
       df[24,1] <- "P2"
       df[24,2] <- "Employee Turnover Rate"
       df[24,3] <- "Rolling 12 Month"
       df[24,4] <- "12%"
-      df[24,7] <- "▲"
+      df[24,7] <- ""
 
       df[25,1] <- "P3"
       df[25,2] <- "GM$ / Employee Total ($’000)"
       df[25,3] <- "Rolling 12 Month"
       df[25,4] <- "$72"
-      df[25,7] <- "▲"
+      df[25,7] <- ""
 
       df <- df %>%
         add_row(`Performance Indicators` = "Customer", .before = 26)
@@ -556,7 +556,7 @@ GenerateReport <- function(test_input) {
       df[27,2] <- "On Time Delivery %"
       df[27,3] <- "YTD"
       df[27,4] <- "97%"
-      df[27,7] <- "▲"
+      df[27,7] <- ""
 
       df <- df %>%
         add_row(`Performance Indicators` = "Winning Team", .before = 28)
@@ -564,25 +564,25 @@ GenerateReport <- function(test_input) {
       df[29,2] <- "On Time Submittal %"
       df[29,3] <- "YTD"
       df[29,4] <- "97%"
-      df[29,7] <- "▲"
+      df[29,7] <- ""
 
       df[30,1] <- "OE2"
       df[30,2] <- "On Time Release to Purchasing Median Weeks to Fab"
       df[30,3] <- "YTD"
       df[30,4] <- "97%"
-      df[30,7] <- "▲"
+      df[30,7] <- ""
 
       df[31,1] <- "OE3"
       df[31,2] <- "Median Weeks to Fab"
       df[31,3] <- "YTD"
       df[31,4] <- "16"
-      df[31,7] <- "▲"
+      df[31,7] <- ""
 
       df[32,1] <- "OE4"
       df[32,2] <- "Warranty %"
       df[32,3] <- "18 Month Rolling"
       df[32,4] <- "2.0%"
-      df[32,7] <- "▲"
+      df[32,7] <- ""
 
 
       # Color Codes
